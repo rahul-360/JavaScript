@@ -1,4 +1,4 @@
-console.log("Hello Dom");
+// console.log("Hello Dom");
 
 // alert("hello Dom");
 
@@ -18,8 +18,15 @@ console.log("Hello Dom");
 // let para =document.getElementsByName("p");
 // console.dir(para);
 
-let elements = document.querySelector("p");
-console.dir(elements);
+// let felements = document.querySelector("Div").children;
+// console.dir(felements);
 
+// let allelements = document.querySelectorAll("p");
+// console.dir(allelements);
+
+// let classallelements = document.querySelectorAll(".heading");
+// console.dir(classallelements);
+
+document.querySelector("p").innerHTML ="Hello DOM";
 
 
