@@ -23,19 +23,19 @@
 
 let items = [250, 655, 400, 200, 900, 50]
 
-// let idx = 0;
-// for (let val of items) {
-//     console.log(`value at index ${idx} = ${val}`);
-//     let offer = val / 10;
-//     items[idx] = val - offer;
-//     console.log(`Value after offer = ${items[idx]}`);
-//     idx++;
-// }
-
-
-for (let idx = 0; idx < items.length; idx++) {
-    console.log(`Value at index ${idx} = ${items[idx]}`);
-    let offer =items[idx]-items[idx]/10;
-    console.log(`Value after offer = ${offer}`);
+let idx = 0;
+for (let val of items) {
+    console.log(`value at index ${idx} = ${val}`);
+    let offer = val / 10;
+    items[idx] = val - offer;
+    console.log(`Value after offer = ${items[idx]}`);
+    idx++;
 }
+
+
+// for (let idx = 0; idx < items.length; idx++) {
+//     console.log(`Value at index ${idx} = ${items[idx]}`);
+//     let offer =items[idx]-items[idx]/10;
+//     console.log(`Value after offer = ${offer}`);
+// }
 
